@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(to left,#87EFF6,#FFFFFF);
+    }
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.main .roteiro p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.main .red {
+    color: rgb(228, 10, 10);
+}
+.btn {
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    text-align: center;
+}
+
+.main .ladodireito img {
+    
+}
